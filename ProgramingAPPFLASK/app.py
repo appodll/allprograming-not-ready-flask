@@ -10,10 +10,10 @@ from email.message import EmailMessage
 app = Flask(__name__)
 CORS(app)
 
-app.config["MYSQL_HOST"] = "localhost"
-app.config["MYSQL_USER"] = 'root'
-app.config["MYSQL_PASSWORD"] = "3122005x"
-app.config["MYSQL_DB"] = "programingappflut"
+app.config["MYSQL_HOST"] = ""
+app.config["MYSQL_USER"] = ''
+app.config["MYSQL_PASSWORD"] = ""
+app.config["MYSQL_DB"] = ""
 
 mysql = MySQL(app)
 
